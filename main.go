@@ -60,6 +60,6 @@ func init() {
 }
 func main() {
 	// m := http.NewServeMux()
-	// m.HandleFunc("/", prerender.NewOptions().NewPrerender().PreRenderHandler)
+	// m.HandleFunc("/", prerender.NewOptions().NewPrerender().PreRenderHandler) //暂时不用
 	beego.Run()
 }
